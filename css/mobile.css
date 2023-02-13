@@ -1,0 +1,12 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+
+  /* modal*/
+
+  .modal {
+    min-width: 392px;
+  }
+ 
+}
