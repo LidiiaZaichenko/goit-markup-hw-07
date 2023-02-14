@@ -53,6 +53,8 @@
     color: var(--primary-brand-color);
   }
   .contact-link {
+    font-size: 12px;
+    line-height: 1.33;
     color: var(--primary-text-color);
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -70,10 +72,12 @@
         var(--hero-gradient),
         var(--hero-gradient)
       ),
-      url(../images/peopleofficetablet.jpg);
+      url(../images/peopleoffice.jpg);
+  
     padding-top: 112px;
     padding-bottom: 108px;
-    max-width: 768px;
+
+   
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -84,9 +88,10 @@
       var(--hero-gradient),
       var(--hero-gradient)
     ),
-    url(../images/peopleofficetablet@2x.jpg)
+    url(../images/peopleoffice@2x.jpg)
   }
 }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -94,10 +99,15 @@
   }
   .hero-button {
     margin-top: 48px;
+    
+
   }
   /* modal*/
+
+ 
   .modal {
-    min-width: 408px;
+    width: 408px;
+    max-height: 586px;
   }
   /* main Studio features-section */
   .features-list {

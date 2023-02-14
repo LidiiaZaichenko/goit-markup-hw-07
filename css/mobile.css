@@ -1,12 +1,37 @@
+@media screen and (min-width: 392px) {
+    .modal {
+        width: 392px;
+          }
+        }
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
   }
 
-  /* modal*/
+  .customers-link {
 
-  .modal {
-    min-width: 392px;
+    width: 189px;
+   
   }
- 
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient),
+        var(--hero-gradient)
+      ),
+      url(../images/peopleofficetablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section  {
+    background-image: linear-gradient(
+      to right,
+      var(--hero-gradient),
+      var(--hero-gradient)
+    ),
+    url(../images/peopleofficetablet@2x.jpg)
+  }
+}
 }

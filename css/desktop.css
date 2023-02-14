@@ -22,29 +22,14 @@
   }
   /* main Studio */
   /* main Studio hero-section */
+ 
   .hero-section {
-    background-image: linear-gradient(
-        to right,
-        var(--hero-gradient),
-        var(--hero-gradient)
-      ),
-      url(../images/peopleoffice.jpg);
+
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
   }
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-section  {
-    background-image: linear-gradient(
-      to right,
-      var(--hero-gradient),
-      var(--hero-gradient)
-    ),
-    url(../images/peopleoffice@2x.jpg)
-  }
-}
+
   /* main Studio features-section */
   .features-list {
     display: flex;
@@ -128,6 +113,8 @@
     gap: 0;
     margin-left: 141px;
     column-gap: 0px;
+margin-left: auto;
+margin-top: auto;
   }
   .footer-form {
     flex-wrap: nowrap;
